@@ -1,18 +1,19 @@
 /*Global styles
 -----------------------------------------------------------------*/
 body {
-    color:#343434;
+    color:#eec643;
 }
 
 /*Profile
 ------------------------------------------------------------------*/
 header {
-    background: #2F3061;
+    background: #457eac;
 }
 /*Work Experience
 ------------------------------------------------------------------*/
 .work-experience {
-    background:#8ba7e6;
+    background:#eef0f2;
+    color:#457eac
 }
 .bold {
     font-weight: bold;
