@@ -2,12 +2,26 @@
 -----------------------------------------------------------------*/
 body {
     color:#eec643;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 3.25em;
+}
+h1, h2 {
+    font-family: Cambria, "Times New Roman", sans-serif;
+    font-weight: 700;
+    margin:0;
 }
 
 /*Profile
 ------------------------------------------------------------------*/
 header {
     background: #457eac;
+    line-height: 1;
+    padding:1em
 }
 /*Work Experience
 ------------------------------------------------------------------*/
