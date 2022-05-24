@@ -48,7 +48,7 @@ header, .projects {
 .skills {
     background:#011638;
     color:#EEc643;
-    padding:2em;
+    padding:1em;
     padding-left: 1.2em;
 }
 /*Work Experience
@@ -63,3 +63,25 @@ header, .projects {
 }
 /*Projects
 -------------------------------------------------------------------*/
+.projects {
+    padding:1em;
+}
+/*Contact Info
+-------------------------------------------------------------------*/
+.contact-info {
+    background:#011638;
+    color:#EEc643;
+    margin:0;
+    padding-top: 1em;
+    padding-bottom: 10em;
+}
+.btn {
+    background:#686868;
+    color: #EEc643;
+    text-decoration:none;
+    padding:7px;
+    border-radius: 4px;
+}
+.btn:hover {
+    background:#9AB7CF;
+}
