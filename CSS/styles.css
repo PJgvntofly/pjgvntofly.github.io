@@ -1,34 +1,62 @@
 /*Global styles
 -----------------------------------------------------------------*/
+*{
+    margin:0;
+    max-width: 980px;
+    position: relative;
+    padding: auto;
+}
 body {
-    color:#eec643;
+    color:#686868;
     line-height: 1.5;
 }
 h1 {
     font-size: 5em;
+    padding-bottom: .25em;
 }
 h2 {
     font-size: 3.25em;
+    padding-bottom: .5em;
 }
 h1, h2 {
     font-family: Cambria, "Times New Roman", sans-serif;
     font-weight: 700;
     margin:0;
 }
+img {
+    padding: .3em;
+    border: none
+}
+.section_header {
+    text-decoration: underline;
+    font-size: 1.8em;
+    padding-bottom:.5em;
+}
 
 /*Profile
 ------------------------------------------------------------------*/
-header {
-    background: #457eac;
+header, .projects {
+    background: #EEf0f2;
     line-height: 1;
     padding:1em
+}
+/*Skills
+-------------------------------------------------------------------*/
+.skills {
+    background:#011638;
+    color:#EEc643;
+    padding:2em;
+    padding-left: 1.2em;
 }
 /*Work Experience
 ------------------------------------------------------------------*/
 .work-experience {
-    background:#eef0f2;
-    color:#457eac
+    background:#9AB7CF;
+    color:#1c3a52;
+    padding:1em;
 }
 .bold {
     font-weight: bold;
 }
+/*Projects
+-------------------------------------------------------------------*/
